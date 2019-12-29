@@ -30,6 +30,7 @@
                     <th>Drink Name</th>
                     <th>Qty</th>
                     <th>Price</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -37,19 +38,33 @@
                     <td>Pepsi</td>
                     <td>1 Lt</td>
                     <td>$2</td>
+                    <td><button type="button" class="btn btn-success" onclick="pepsi()">View Product</button></td>
+
                 </tr>
                 <tr>
                     <td>Coke</td>
                     <td>2 Lt</td>
                     <td>$4</td>
+                    <!-- <td><button type="button" class="btn btn-success">View Product</button></td> -->
+
                 </tr>
                 <tr>
                     <td>Sprite</td>
                     <td>3 Lt</td>
                     <td>$4.5</td>
+                    <!-- <td><button type="button" class="btn btn-success">View Product</button></td> -->
+
                 </tr>
             </tbody>
         </table>
     </div>
 
+    <script>
+        function pepsi() {
+            window.location.href = "pepsi.html";
+        }
+    </script>
 </body>
+
+
+</html>
