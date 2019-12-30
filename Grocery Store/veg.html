@@ -24,6 +24,45 @@
     <div class="container">
 
         <h3>Vegetables</h3>
+		<table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Vegetable Name</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carrot</td>
+                    <td>1 Lb</td>
+                    <td>$3</td>
+					<td><button type="button" class="btn btn-success" onclick="carrot()">View Product</button></td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>1 Lb</td>
+                    <td>$2</td>
+					<td><button type="button" class="btn btn-success" onclick="tomatoes()">View Product</button></td>
+                </tr>
+                <tr>
+                    <td>Onions</td>
+                    <td>1 Lb</td>
+                    <td>$5</td>
+					<td><button type="button" class="btn btn-success" onclick="onions()">View Product</button></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-
+<script>
+        function carrot() {
+            window.location.href = "carrot.html";
+        }
+		function tomatoes() {
+            window.location.href = "tomatoes.html";
+        }
+		function onions() {
+            window.location.href = "onions.html";
+        }
+    </script>
 </body>
